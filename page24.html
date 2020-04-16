@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v4.12.3, https://mobirise.com -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v4.12.3, mobirise.com">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo4.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/logo-128x128.png" type="image/x-icon">
   <meta name="description" content="Web Site Builder Description">
   
   
@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/recaptcha.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
@@ -40,7 +41,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="page10.html">
-                        <img src="assets/images/logo-122x122.png" alt="Mobirise" title="" style="height: 8rem;">
+                        <img src="assets/images/logo-122x122.png" alt="" title="" style="height: 8rem;">
                     </a>
                 </span>
                 
@@ -61,7 +62,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/m">free website design templates</a></section><section class="extСontent cid-rW9a2tEPdL mbr-fullscreen" id="extContent9-3j">
+<section class="extСontent cid-rW9a2tEPdL mbr-fullscreen" id="extContent9-3j">
     
     
     <div class="container">
@@ -75,23 +76,16 @@
                 </div>
             </div>
             <div class="col-lg-6 img-col">
-                <img class="img2" src="assets/images/mbr-640x360.jpg" alt="Mobirise" title="">
-                <img src="assets/images/mbr-1440x964.jpg" alt="Mobirise" title="">
+                <img class="img2" src="assets/images/mbr-640x360.jpg" alt="" title="">
+                <img src="assets/images/mbr-1440x964.jpg" alt="" title="">
             </div>
 
         </div>
     </div>
 </section>
 
-<section class="popup-builder cid-rVCGb57erH" id="mbr-popup-30">
-
-    
-
-    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(0, 0, 0); top: 0px; right: 0px; bottom: 0px; left: 0px; z-index: 0;">
-    </div>
-
-    <div class="modal mbr-popup" tabindex="-1" role="dialog" data-overlay-color="#000000" data-overlay-opacity="0.8">
-        <div class="modal-dialog modal-sm" role="document">
+<div class="modal mbr-popup cid-rVCGb57erH fade" tabindex="-1" role="dialog" data-overlay-color="#000000" data-overlay-opacity="0.8" id="mbr-popup-2m" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title mbr-fonts-style display-5">Are you sure you want to Log Out?</h5>
@@ -120,17 +114,8 @@
             </div>
         </div>
 
-</section>
-
-<section class="popup-builder cid-rW99c9zSBR" id="mbr-popup-3h">
-
-    
-
-    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(0, 0, 0); top: 0px; right: 0px; bottom: 0px; left: 0px; z-index: 0;">
-    </div>
-
-    <div class="modal mbr-popup" tabindex="-1" role="dialog" data-overlay-color="#000000" data-overlay-opacity="0.8">
-        <div class="modal-dialog" role="document">
+<div class="modal mbr-popup cid-rW99c9zSBR fade" tabindex="-1" role="dialog" data-overlay-color="#000000" data-overlay-opacity="0.8" id="mbr-popup-33" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header pb-0">
                     <h5 class="modal-title mbr-fonts-style display-5">Contact Us</h5>
@@ -154,28 +139,35 @@
                     </div>
 
                     <div class="modal-footer pt-0">
-                        <div class="mbr-section-btn"><a class="btn btn-md btn-black display-4" href="tel:1-800-123-4567">
-                                Call: 1(800) - TakeCare</a> <a class="btn btn-md btn-black display-4" href="mailto:Help@TakeCare.com">
-                                Email: Help@TakeCare.com</a> <a class="btn btn-md btn-black display-4" href="popup:#mbr-popup-1o" data-toggle="modal" data-target="#mbr-popup-1o">
-                                Mail: 1234 Professional Rd,<br>New York City, NY 10035<br></a></div>
+                        <div class="mbr-section-btn">
+                            <a class="btn btn-md btn-black display-4" href="tel:1-800-123-4567">
+                                Call: 1(800) - TakeCare
+                            </a> 
+                            <a class="btn btn-md btn-black display-4" href="mailto:Help@TakeCare.com">
+                                Email: Help@TakeCare.com
+                            </a> 
+                            <a class="btn btn-md btn-black display-4">
+                                Mail: 1234 Professional Rd,<br>New York City, NY 10035<br>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-</section>
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/popup-overlay-plugin/script.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/dropdown/js/nav-dropdown.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/popup-plugin/script.js"></script>
   <script src="assets/theme/js/script.js"></script>
-  <script src="assets/formoid/formoid.min.js"></script>
+  <script src="assets/formoid.min.js"></script>
   
   
 </body>
